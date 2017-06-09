@@ -1,0 +1,58 @@
+.calen {
+	padding: 0;
+}
+
+.nav-head {
+	padding-left: 0px;
+}
+
+.new-list .item{
+	border-bottom: 1px solid #000;
+	margin-top: 60px;
+	padding: 10px 0 5px 0;
+}
+.new-list .item2{
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #000;
+	/*margin: 0;*/
+}
+
+.calen ul li img{
+    height: 100%;
+    width: 100%;
+}
+
+.week-head{
+	padding-top: 10px 10px 0 10px;
+}
+.week-head .iden{
+	width: 13%;
+	text-align: center;
+	display: inline-block;
+}
+.week {
+	padding: 0 10px 0 10px;
+	height: 81.9px;
+	border-bottom: 1px solid gray;
+	margin-bottom: 0;
+}
+.week .week1, .week .week2, .week .week3, .week .week4, .week .week5, .week .week6 {
+	width: 13%;
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+}
+.week .week1 a, .week .week2 a, .week .week3 a, .week .week4 a, .week .week5 a, .week .week6 a {
+	padding: 0 15px 60px 15px;
+}
+
+.day-list{
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #bdbdbd;
+	margin: 0 0 0 0;
+	/*font-size: 15px;*/
+}
+.day-list .ri {
+	border-right:  1px solid #bdbdbd;
+	text-align: center;
+}

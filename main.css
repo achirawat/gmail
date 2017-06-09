@@ -1,0 +1,26 @@
+body {
+	/*background-image: url("bgmain.png");*/
+	background-image: url("bgmain2.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.font {
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	padding:30px 0 40px 0;
+}
+.font2 {
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
+}
+.font2 a{
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	padding: 0 70px 0 70px;
+	margin: 30px 0 30px 0;
+	width: 239px;
+	height: 54px;
+}
