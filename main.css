@@ -1,6 +1,6 @@
 body {
 	/*background-image: url("bgmain.png");*/
-	background-image: url("bgmain2.jpg");
+	background-image: url("bgmain.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 }
@@ -19,7 +19,7 @@ body {
 	font-size: 20px;
 	text-align: center;
 	color: #fff;
-	padding: 0 70px 0 70px;
+	padding: 15px 70px 0 70px;
 	margin: 30px 0 30px 0;
 	width: 239px;
 	height: 54px;

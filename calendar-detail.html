@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" href="materialize/css/materialize.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="calendar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div class="navbar-fixed nav-head">
+		<nav class="nav-extended">
+			<div class="nav-wrapper light-blue">
+				<div class="row" style="margin: 0 0 0 0;">
+                    <ul class="left">
+                    	<li><a href="calendar-day.html" style="margin: 0 0 0 0;"><i class="material-icons small" style="color:ghostwhite; ">clear</i></a></li>
+                    </ul>
+                    <ul class="right">
+                        <li"><a href="#" style="font-size: 20px;"><i class="material-icons">more_vert</i></a></li>
+
+                    </ul>
+                </div>
+			</div>
+		</nav>
+	</div>
+	<div class="container-fluid detail" >
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">schedule</i>
+			</div>
+			<div class="col s10">
+				<p>Alane Walker (abcd@mail.com)</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">mail</i>
+			</div>
+			<div class="col s6">
+				<span>All Day</span>
+			</div>
+			<div class="col s6">
+				<span>Thu. 8 Jun 2017</span>
+			</div>
+			<div class="offset-s2 col s6">
+				<span>08.00</span>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">location_on</i>
+			</div>
+			<div class="col s10">
+				<p>Add Location</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">notifications</i>
+			</div>
+			<div class="col s10">
+				<p>Add Alarm</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">supervisor_account</i>
+			</div>
+			<div class="col s10">
+				<p>Invite</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">brightness_1</i>
+			</div>
+			<div class="col s10">
+				<p>Default Color</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">sort</i>
+			</div>
+			<div class="col s10">
+				<p>Add Note</p>
+			</div>
+		</div>
+		<div class="row item3">
+			<div class="col s2">
+				<i class="material-icons">attachment</i>
+			</div>
+			<div class="col s10">
+				<p>Add File</p>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $(".button-collapse").sideNav();
+        $(document).ready(function(){
+            $('ul.tabs').tabs();
+        });
+    </script>
+</body>

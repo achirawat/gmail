@@ -47,7 +47,7 @@
 }
 
 .day-list{
-	padding: 10px 0 5px 0;
+	padding: 5px 0 5px 0;
 	border-bottom: 1px solid #bdbdbd;
 	margin: 0 0 0 0;
 	/*font-size: 15px;*/
@@ -55,4 +55,21 @@
 .day-list .ri {
 	border-right:  1px solid #bdbdbd;
 	text-align: center;
+}
+.day-list .bg {
+	background-color: #1e88e5;
+	padding: 0; 
+}
+.day-list .bg a{
+	color: #fff;
+	padding-left: 15px; 
+}
+
+.detail {
+	padding: 0;
+}
+.detail .item3{
+	padding: 10px 0 5px 0;
+	border-bottom: 1px solid #000;
+	margin: 0;
 }
